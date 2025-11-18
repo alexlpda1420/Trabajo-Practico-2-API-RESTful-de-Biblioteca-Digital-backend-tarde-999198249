@@ -38,4 +38,4 @@ const BookSchema = new Schema<BookDocument>(
 
 )
 
-export const BookModel = model<BookDocument>("Book", BookSchema);
+export const Book = model<BookDocument>("Book", BookSchema);
